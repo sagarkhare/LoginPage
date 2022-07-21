@@ -8,12 +8,12 @@ const Navigation = (props) => {
       <ul>
         {props.isLoggedIn && (
           <li>
-            <a href="/">Users</a>
+            <a href="https://www.w3schools.com">Users</a>
           </li>
         )}
         {props.isLoggedIn && (
           <li>
-            <a href="/">Admin</a>
+            <a href="https://www.w3schools.com/js">Admin</a>
           </li>
         )}
         {props.isLoggedIn && (
